@@ -1,8 +1,5 @@
 import streamlit as st
 import pandas as pd
-from bs4 import BeautifulSoup
-import requests
-import json
 from functions import scraping_bdm
 
 st.set_page_config(
