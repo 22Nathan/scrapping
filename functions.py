@@ -1,5 +1,5 @@
 import requests
-from beautifulsoup4 import BeautifulSoup
+from bs4 import BeautifulSoup
 
 def scraping_bdm(url:str='https://www.blogdumoderateur.com/') -> dict:
     
