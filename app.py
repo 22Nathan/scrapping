@@ -28,7 +28,7 @@ if res:
     csv = df.to_csv().encode('utf-8')
 
     with col1:
-        st.write(f'Télécharger les {len(res)} article{ 's' if len(res) > 1 else ''} ?')
+        st.write(f'Télécharger les {len(res)} article.s ?')
 
     with col2:
         st.download_button(
